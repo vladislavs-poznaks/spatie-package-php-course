@@ -7,6 +7,7 @@ class Weight
     public function kilograms(float $kilograms): self
     {
         $this->kilograms = $kilograms;
+
         return $this;
     }
 
